@@ -1,0 +1,45 @@
+.boardOuter {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.column {
+  padding: 14px;
+  border-radius: 10px;
+  width: 310px;
+  min-height: 500px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 16px #dddddd77;
+}
+
+.task {
+  background: #fff;
+  border-radius: 7px;
+  padding: 10px 10px 8px 10px;
+  margin-bottom: 16px;
+  box-shadow: 0 0 8px #cbc9c96e;
+}
+
+.addTaskForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.addTaskForm input {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.addTaskForm button {
+  background: #0058b6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+  cursor: pointer;
+}
